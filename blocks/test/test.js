@@ -7,7 +7,7 @@ export default function decorate(block) {
     const li = document.createElement('li');
     li.innerHTML = row.innerHTML;
     [...li.children].forEach((div) => {
-		log.console("tushar --> " row.innerHTML);
+		log.console("tushar --> " + row.innerHTML);
       if (div.children.length === 1 && div.querySelector('picture')) div.className = 'test-card-image';
       else div.className = 'test-card-body';
     });
