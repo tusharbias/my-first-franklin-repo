@@ -7,6 +7,7 @@ export default function decorate(block) {
     const li = document.createElement('li');
     li.innerHTML = row.innerHTML;
     [...li.children].forEach((div) => {
+		console.log('Tushar -->' + row.innerHTML);
       if (div.children.length === 1 && div.querySelector('picture')) div.className = 'test-card-image';
       else if (div.querySelector('h2')) div.className='test-heading'; 
 	  else div.className = 'test-card-body-content';

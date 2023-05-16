@@ -20,7 +20,7 @@
   line-height: 0;
 }
 
-.test .test-card-body > *:first-child {
+.test .test-card-body > *:third-child {
   margin-top: 0;
 }
 
