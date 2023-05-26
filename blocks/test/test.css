@@ -16,11 +16,11 @@
   margin: 16px;
 }
 
-.test .test-card-image {
+.test {
   line-height: 0;
 }
 
-.test .test-card-body > *:third-child {
+.test {
   margin-top: 0;
 }
 
